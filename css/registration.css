@@ -77,11 +77,11 @@ body {
 		font-size: 1em;
 	}
 
-	ul &gt; li &gt; input, textarea {
+	ul > li > input, textarea {
 		width: 550px !important;
 	}
 
-	ul &gt; li &gt; input[type=checkbox] {
+	ul > li > input[type=checkbox] {
 		width: auto !important;
 	}
 
