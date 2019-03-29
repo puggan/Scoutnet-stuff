@@ -11,12 +11,22 @@ body {
   margin-top: 0px;
   width: 100px;
 }
+@media screen and (max-width: 900px) {
+  .button {
+    margin-right: 10px;
+  }
+}
 .custom_list_form label {
   font-family: adobe-garamond-pro, Garamond, serif;
   font-size: 0.8em;
   min-width: 160px;
   padding-right: 20px;
   width: auto !important;
+}
+@media screen and (min-width: 900px) {
+  .custom_list_form label {
+    font-size: 1em;
+  }
 }
 .question {
   margin-top: 10px;
@@ -54,28 +64,24 @@ body {
 .question_list .question_section {
   border: none;
 }
-@media screen and (max-width: 900px) {
-  .button {
-    margin-right: 10px;
-  }
-}
 @media screen and (min-width: 900px) {
-  li {
+  p {
+    width: 710px;
+  }
+  textarea {
+    width: 550px !important;
+  }
+  ul {
+    width: 710px;
+  }
+  ul > li {
     margin-bottom: 5px;
   }
-  ul > li > input,
-  textarea {
+  ul > li > input {
     width: 550px !important;
   }
   ul > li > input[type=checkbox] {
     width: auto !important;
-  }
-  ul,
-  p {
-    width: 710px;
-  }
-  .custom_list_form label {
-    font-size: 1em;
   }
 }
 
